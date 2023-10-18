@@ -25,6 +25,6 @@ int _putchar(char c);
 void print_max_min(int m);
 int len_checker(int n);
 int print_int(va_list args);
- char* _printf_str(va_list args);
+char _printf_str(va_list args);
 
 #endif

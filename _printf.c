@@ -42,8 +42,6 @@ int _printf(const char *format, ...)
 				write(1, "%", 1);
 				len++;
 			}
-			else
-				len = len + _printf_unknown(args);
 		}
 		format++;
 	}

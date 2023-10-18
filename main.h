@@ -20,7 +20,7 @@ typedef struct print_all
 int _printf(const char *format, ...);
 int _printf_char(va_list args);
 int _printf_percent(void);
-int _printf_unknown(va_list args);
+int _printf_unknown(char *);
 int _putchar(char c);
 void print_max_min(int m);
 int len_checker(int n);
